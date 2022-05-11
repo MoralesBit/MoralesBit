@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 process.env.NTBA_FIX_319 = 1;
 const { program } = require("commander");
-const TelegramBot = require("node-telegram-bot-api/lib/telegram");
 const strategies = require("./strategies").default;
 const notify = require("./notifications");
 
